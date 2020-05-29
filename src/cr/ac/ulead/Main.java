@@ -18,6 +18,16 @@ public class Main {
         List<Player> listOfNFL = anotherProcessor.processFile();
 
         System.out.println(listOfNBA.size());
+/*        for (Player player: listOfNBA){
+            System.out.print(player.toString());
+        }*/
         System.out.println(listOfNFL.size());
+        int i = 0;
+        for (Player player : listOfNFL) {
+            if (i < 20) {
+                System.out.println(player.toString());
+                i++;
+            }
+        }
     }
 }

@@ -34,6 +34,6 @@ public class PlayerNFL extends Player {
     @Override
     public String toString() {
         return "PlayerNFL{ " + super.toString() + ",status: " + this.status + ", High School: " + this.highSchool
-                + ", years played" + this.yearsPlayed + " }";
+                + ", years played: " + this.yearsPlayed + " }";
     }
 }
